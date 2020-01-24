@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NEONDMF xmlns="urn:Server-Metadata-Schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="urn:Server-Metadata-Schema http://192.168.55.28:1294/SWICNTL/xsdm20.xsd">  <MAP defines="adabas" name="ADA_STAFF">
+    <NOTATIONS><RESIDENCE dsname="CSD.AI38.SDBO.TEST.MAP" lastmod="2016-02-05T23:54:27Z" member="ADASTAF2" user="AI38RPW"/>
+	<EXPORT date="2020-01-24T17:52:49Z" user="TS3187">
+	<AGENT level="2020-01-23T10:44:00Z" location="SDBO@RS28" name="SDB" version="02.01.0000"/>
+	<INPUT from="CSD.AI38.SDBO.TEST.MAP(ADASTAF2)" lastmod="2016-02-05T23:54:27Z" user="AI38RPW"/>
+	</EXPORT>
+	<IMPORT date="2016-02-06T00:14:27Z" user="AI38RPW"><AGENT level="2016-02-05T16:34:00Z" location="ADBV@DEV1" name="SDB" version="02.01.0000"/>
+	<INPUT from=" ++ XML Source: SEF input buffer=787BC200"/>
+	</IMPORT>
+	<EXTRACT date="2016-02-06T00:14:27Z" user="AI38RPW"><AGENT name="DMFV2"/>
+	</EXTRACT>
+    </NOTATIONS>
+	<ADABAS dbid="104" filenum="330" passencrypt="NO" password="" subsys="AD82"/>
+	<FLD colname="ID" enabled="true" fill="null" format="SMALLINT" length="2" level="1" name="ID" offset="0" precision="2" scale="0" signed="false" sqltype="SQL_SMALLINT">
+	<FLDOPTION adabasname="ID" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/>
+	<SOURCE>FIELD type="F" column="ID" level="1" length="2" datatype="F" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="NAME" enabled="true" fill="null" format="ADA_CHARACTER" length="9" level="1" name="LN" offset="0" precision="9" scale="0" signed="false" sqltype="SQL_CHAR"><FLDOPTION adabasname="LN" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/>
+	<SOURCE>FIELD type="F" column="LN" level="1" length="9" datatype="A" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="DEPT" enabled="true" fill="null" format="SMALLINT" length="2" level="1" name="DT" offset="0" precision="2" scale="0" signed="false" sqltype="SQL_SMALLINT">
+	<FLDOPTION adabasname="DT" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/><SOURCE>FIELD type="F" column="DT" level="1" length="2" datatype="F" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="JOB" enabled="true" fill="null" format="ADA_CHARACTER" length="5" level="1" name="JB" offset="0" precision="5" scale="0" signed="false" sqltype="SQL_CHAR">
+	<FLDOPTION adabasname="JB" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/>
+	<SOURCE>FIELD type="F" column="JB" level="1" length="5" datatype="A" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="YEARS" enabled="true" fill="null" format="SMALLINT" length="2" level="1" name="YR" offset="0" precision="2" scale="0" signed="false" sqltype="SQL_SMALLINT">
+	<FLDOPTION adabasname="YR" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/>
+	<SOURCE>FIELD type="F" column="YR" level="1" length="2" datatype="F" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="SALARY" enabled="true" fill="null" format="PACKED" length="4" level="1" name="SY" offset="0" precision="7" scale="0" signed="false" sqltype="SQL_DECIMAL"><FLDOPTION adabasname="SY" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/><SOURCE>FIELD type="F" column="SY" level="1" length="4" datatype="P" de="yes"           
+	</SOURCE>
+	</FLD>
+	<FLD colname="COMM" enabled="true" fill="null" format="PACKED" length="4" level="1" name="CM" offset="0" precision="7" scale="0" signed="false" sqltype="SQL_DECIMAL">
+	<FLDOPTION adabasname="CM" descriptor="YES" fixedformat="NO" mufield="NO" ncopt="NO" notnull="NO" nullsupp="NO" pefield="NO" phonparent="NO" superparent="NO" uniquede="NO"/>
+	<SOURCE>FIELD type="F" column="CM" level="1" length="4" datatype="P" de="yes"           
+	</SOURCE>
+	</FLD>
+	</MAP>
+	</NEONDMF>
